@@ -1,0 +1,77 @@
+{
+  "dry": [
+    {
+      "id": 1,
+      "name": "Hydrating Hyaluronic Serum",
+      "skin_type": ["dry", "sensitive"],
+      "concerns": ["dryness", "flakiness"],
+      "ingredients": ["hyaluronic acid", "ceramides", "glycerin"]
+    },
+    {
+      "id": 2,
+      "name": "Rich Night Cream",
+      "skin_type": ["dry"],
+      "concerns": ["dryness", "aging"],
+      "ingredients": ["shea butter", "peptides"]
+    }
+  ],
+  "oily": [
+    {
+      "id": 3,
+      "name": "Oil-Control Gel Moisturizer",
+      "skin_type": ["oily", "acne"],
+      "concerns": ["excess oil", "shine"],
+      "ingredients": ["salicylic acid", "niacinamide"]
+    },
+    {
+      "id": 4,
+      "name": "Matte Finish Sunscreen",
+      "skin_type": ["oily"],
+      "concerns": ["sun protection", "oiliness"],
+      "ingredients": ["zinc oxide", "silica"]
+    }
+  ],
+  "pigmentation": [
+    {
+      "id": 201,
+      "name": "Vitamin C Radiance Serum",
+      "skin_type": ["all", "pigmentation"],
+      "concerns": ["dark spots", "dullness"],
+      "ingredients": ["vitamin c", "niacinamide", "licorice root"]
+    },
+    {
+      "id": 202,
+      "name": "Dark Spot Correcting Cream",
+      "skin_type": ["dry", "pigmentation"],
+      "concerns": ["hyperpigmentation", "uneven tone"],
+      "ingredients": ["kojic acid", "glycolic acid"]
+    }
+  ],
+  "acne": [
+    {
+      "id": 5,
+      "name": "Acne Clearing Wash",
+      "skin_type": ["acne", "oily"],
+      "concerns": ["acne", "clogged pores"],
+      "ingredients": ["benzoyl peroxide", "tea tree oil"]
+    }
+  ],
+  "sensitive": [
+    {
+      "id": 6,
+      "name": "Calming Oatmeal Mask",
+      "skin_type": ["sensitive", "dry"],
+      "concerns": ["redness", "irritation"],
+      "ingredients": ["colloidal oatmeal", "aloe vera"]
+    }
+  ],
+  "balanced": [
+    {
+      "id": 7,
+      "name": "Daily Gentle Cleanser",
+      "skin_type": ["balanced", "all"],
+      "concerns": ["maintenance"],
+      "ingredients": ["chamomile", "panthenol"]
+    }
+  ]
+}
