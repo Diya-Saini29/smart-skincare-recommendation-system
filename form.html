@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skin Details Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>Enter Your Skin Details</h1>
+    </header>
+
+    <section class="container">
+        <div class="card">
+            <form action="/result" method="POST" class="form">
+
+
+
+                <label>Skin Type</label>
+                <select name="skin_type" required>
+                    <option value="0">Normal</option>
+                    <option value="1">Oily</option>
+                    <option value="2">Dry</option>
+                    <option value="3">Combination</option>
+                </select>
+
+                <label>Oiliness (0–10)</label>
+                <input type="number" name="oiliness" min="0" max="10" required />
+
+                <label>Dryness (0–10)</label>
+                <input type="number" name="dryness" min="0" max="10" required />
+
+                <label>Sensitivity (0–10)</label>
+                <input type="number" name="sensitivity" min="0" max="10" required />
+
+                <label>Acne Severity (0–10)</label>
+                <input type="number" name="acne" min="0" max="10" required />
+
+                <label>Dark Spots (0–10)</label>
+                <input type="number" name="dark_spots" min="0" max="10" required />
+
+                <label>Redness (0–10)</label>
+                <input type="number" name="redness" min="0" max="10" required />
+
+                <label>Age</label>
+                <input type="number" name="age" min="16" max="60" required />
+
+                <button type="submit" class="btn">Generate Routine</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

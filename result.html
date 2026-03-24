@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Skincare Result</title>
+<link rel="stylesheet" href="/ui/styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Your Skin Analysis Result</h1>
+</header>
+
+<div class="container">
+    
+    <div class="card">
+        <h2>Your Skin Category</h2>
+        <p class="result-label">{{ label }}</p>
+    </div>
+
+    <div class="card">
+        <h2>Recommended Products</h2>
+
+        {% if products %}
+            <ul>
+                {% for product in products %}
+                    <li>
+                        <strong>{{ product.name }}</strong><br>
+                        {{ product.description  }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No suitable products found.</p>
+        {% endif %}
+
+    </div>
+
+    <a href="/" class="btn">Go Back</a>
+
+</div>
+
+</body>
+</html>
